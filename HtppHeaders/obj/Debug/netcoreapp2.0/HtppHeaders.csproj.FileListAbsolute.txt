@@ -1,0 +1,10 @@
+C:\Users\steve\Documents\Analyse_9\week_1\HtppHeaders\bin\Debug\netcoreapp2.0\HtppHeaders.deps.json
+C:\Users\steve\Documents\Analyse_9\week_1\HtppHeaders\bin\Debug\netcoreapp2.0\HtppHeaders.runtimeconfig.json
+C:\Users\steve\Documents\Analyse_9\week_1\HtppHeaders\bin\Debug\netcoreapp2.0\HtppHeaders.runtimeconfig.dev.json
+C:\Users\steve\Documents\Analyse_9\week_1\HtppHeaders\bin\Debug\netcoreapp2.0\HtppHeaders.dll
+C:\Users\steve\Documents\Analyse_9\week_1\HtppHeaders\bin\Debug\netcoreapp2.0\HtppHeaders.pdb
+C:\Users\steve\Documents\Analyse_9\week_1\HtppHeaders\obj\Debug\netcoreapp2.0\HtppHeaders.csproj.CoreCompileInputs.cache
+C:\Users\steve\Documents\Analyse_9\week_1\HtppHeaders\obj\Debug\netcoreapp2.0\HtppHeaders.AssemblyInfoInputs.cache
+C:\Users\steve\Documents\Analyse_9\week_1\HtppHeaders\obj\Debug\netcoreapp2.0\HtppHeaders.AssemblyInfo.cs
+C:\Users\steve\Documents\Analyse_9\week_1\HtppHeaders\obj\Debug\netcoreapp2.0\HtppHeaders.dll
+C:\Users\steve\Documents\Analyse_9\week_1\HtppHeaders\obj\Debug\netcoreapp2.0\HtppHeaders.pdb

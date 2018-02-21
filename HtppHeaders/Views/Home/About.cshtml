@@ -1,0 +1,12 @@
+﻿@model System.Collections.Generic.List<HeaderStore>
+
+
+@{
+    ViewData["Title"] = "About";
+}
+<h2>@ViewData["Title"]</h2>
+
+
+@foreach(var header in Model){
+    <h5>@Html.Raw(header.UserAgent) <small>Date: @header.RequestDate</small></h5>
+}

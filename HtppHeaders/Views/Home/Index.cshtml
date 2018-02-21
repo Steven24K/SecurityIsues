@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    var header = ViewData["CacheControl"] as HtppHeaders.Models.HeaderViewModel;
+}
+<div class="container">
+
+        <h1>There are <b>@ViewData["counter"]</b> requests made on this site!</h1>
+         
+        <h1>@ViewData["currentAgentcounter"] users used the same user agent!</h1>
+
+        <div class="row">
+
+            <div class="col-md-12">
+                <h2>HTTP Request Headers:</h2>
+
+                <ul>
+               @foreach(var h in ViewData["DetailHeaders"] as Microsoft.AspNetCore.Http.IHeaderDictionary){
+                 <li><b>@h.Key</b>: @Html.Raw(h.Value)</li>
+                }
+               </ul>
+            </div>
+        </div>
+
+
+
+
+
+<h2>HTTP Response Headers:</h2>
+    <p>
+        <ul>
+             @foreach(var h in ViewData["responseheaders"] as Microsoft.AspNetCore.Http.IHeaderDictionary){
+              <li><b>@h.Key</b> @h.Value</li>
+             }
+
+        </ul>
+    </p>
+
+
+
+</div>
+

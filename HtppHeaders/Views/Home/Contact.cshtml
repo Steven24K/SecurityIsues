@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Contact";
+}
+<h2>@ViewData["Title"]</h2>
+
+<form method="get" asp-controller="Home" asp-action="Contact">
+    <textarea name="user" rows="10" cols="40"></textarea>
+    <input type="submit" value="submit">
+
+</form>
